@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
-
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 import HomeScreen from './screens/HomeScreen'; // Default export
 import WishListScreen from './screens/WishListScreen'; // Default export
 import NotificationScreen from './screens/NotificationScreen'; // Default export
@@ -25,6 +25,12 @@ export default function App() {
             } else if (route.name === 'Notifications') {
               iconName = focused ? 'notifications' : 'notifications-outline';
             }
+            else if (route.name === 'exchange') {
+              iconName = focused ? 'swap-horizontal-outline' : 'swap-horizontal-outline';
+            }
+            else if (route.name === 'person') {
+              iconName = focused ? 'person-outline' : 'person-outline';
+            }
 
             return <Ionicons name={iconName} size={size} color={color} />;
           },
@@ -39,6 +45,12 @@ export default function App() {
           options={{ headerShown: false,
             headerBackTitleVisible: true  }} // Disable header for Home screen
         />
+         <Tab.Screen 
+          name="exchange" 
+          component={HomeScreen} 
+          options={{ headerShown: false,
+            headerBackTitleVisible: true  }} // Disable header for Notifications screen
+        />
         <Tab.Screen 
           name="Wishlist" 
           component={WishListScreen} 
@@ -51,6 +63,13 @@ export default function App() {
           options={{ headerShown: false,
             headerBackTitleVisible: true  }} // Disable header for Notifications screen
         />
+         <Tab.Screen 
+          name="person" 
+          component={HomeScreen} 
+          options={{ headerShown: false,
+            headerBackTitleVisible: true  }} // Disable header for Notifications screen
+        />
+        
       </Tab.Navigator>
     </NavigationContainer>
   );

@@ -13,19 +13,19 @@ Welcome to the **Sport Shoe Shop App**, a simple yet functional React Native app
 ### Home Screen
 Here’s a glimpse of what the Home Screen looks like:
 
-![Home Screen](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.41.36%20AM.jpeg)
-![Home Screen (scrolled View)](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.41.37%20AM.jpeg)
-![Home Screen (bottom View)](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.41.37%20AM%20(1).jpeg)
+![Home Screen](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.30.59%20PM%20(1).jpeg)
+![Home Screen (scrolled View)](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.30.59%20PM%20(2).jpeg)
+![Home Screen (bottom View)](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.30.59%20PM%20(3).jpeg)
 
 ### WishList Screen
 Take a look at the WishList Screen, where you can manage your favorite items:
 
-![WishList Screen](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.41.38%20AM.jpeg)
+![WishList Screen](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.30.59%20PM%20(4).jpeg)
 
 ### Notification Screen
 Stay informed with the Notification Screen, featuring important updates and offers:
 
-![Notification Screen](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.41.38%20AM%20(1).jpeg)
+![Notification Screen](./screenshots/WhatsApp%20Image%202024-10-05%20at%202.31.00%20PM.jpeg)
 
 ## Installation
 
